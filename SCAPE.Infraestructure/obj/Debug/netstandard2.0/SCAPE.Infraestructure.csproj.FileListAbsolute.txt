@@ -1,0 +1,4 @@
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Domain.dll
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csprojAssemblyReference.cache
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.AssemblyInfo.cs
