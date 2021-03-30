@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SCAPE.Application\SCAPE.Application.csproj" />
     <ProjectReference Include="..\SCAPE.Domain\SCAPE.Domain.csproj" />
     <ProjectReference Include="..\SCAPE.Infraestructure\SCAPE.Infraestructure.csproj" />
   </ItemGroup>

@@ -12,8 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SCAPE.Application.Interfaces;
+using SCAPE.Application.Services;
 using SCAPE.Domain.Interfaces;
-using SCAPE.Domain.Services;
 using SCAPE.Infraestructure.Context;
 using SCAPE.Infraestructure.Repositories;
 

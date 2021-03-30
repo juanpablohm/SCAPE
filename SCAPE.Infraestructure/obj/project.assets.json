@@ -1884,6 +1884,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "SCAPE.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SCAPE.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SCAPE.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCAPE.Application.dll": {}
+        }
+      },
       "SCAPE.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -6641,6 +6654,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "SCAPE.Application/1.0.0": {
+      "type": "project",
+      "path": "../SCAPE.Application/SCAPE.Application.csproj",
+      "msbuildProject": "../SCAPE.Application/SCAPE.Application.csproj"
+    },
     "SCAPE.Domain/1.0.0": {
       "type": "project",
       "path": "../SCAPE.Domain/SCAPE.Domain.csproj",
@@ -6653,31 +6671,25 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
       "NETStandard.Library >= 2.0.3",
+      "SCAPE.Application >= 1.0.0",
       "SCAPE.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juanp\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\GOMEZ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juanp\\source\\repos\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\ProyectoSCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
       "projectName": "SCAPE.Infraestructure",
-      "projectPath": "C:\\Users\\juanp\\source\\repos\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
-      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juanp\\source\\repos\\SCAPE\\SCAPE.Infraestructure\\obj\\",
+      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\ProyectoSCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
+      "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\ProyectoSCAPE\\SCAPE.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -6688,9 +6700,13 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\juanp\\source\\repos\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
-              "projectPath": "C:\\Users\\juanp\\source\\repos\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
+            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\ProyectoSCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
+              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\ProyectoSCAPE\\SCAPE.Application\\SCAPE.Application.csproj"
+            },
+            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\ProyectoSCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
+              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\ProyectoSCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
             }
           }
         }
@@ -6703,6 +6719,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -6735,7 +6752,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

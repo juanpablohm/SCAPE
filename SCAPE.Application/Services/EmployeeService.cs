@@ -1,11 +1,9 @@
-﻿using SCAPE.Domain.Entities;
+﻿using SCAPE.Application.Interfaces;
+using SCAPE.Domain.Entities;
 using SCAPE.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace SCAPE.Domain.Services
+namespace SCAPE.Application.Services
 {
     public class EmployeeService : IEmployeeService
     {
@@ -17,7 +15,11 @@ namespace SCAPE.Domain.Services
             _employeeRepository = employeeRepository;
         }
 
-
+        /// <summary>
+        /// This method contain bussiness logic
+        /// Insert employee from repository
+        /// </summary>
+        /// <param name="employee">Employee yo insert</param>
         public async Task insertEmployee(Employee employee)
         {
             await _employeeRepository.insertEmployee(employee);
