@@ -14,7 +14,10 @@ namespace SCAPE.Infraestructure.Repositories
         {
             _context = context;
         }
-
+        /// <summary>
+        /// Insert employee into the context (SCAPEDB in this case)
+        /// </summary>
+        /// <param name="employee">Employee to insert</param>
         public async Task insertEmployee(Employee employee)
         {
             _context.Employee.Add(employee);

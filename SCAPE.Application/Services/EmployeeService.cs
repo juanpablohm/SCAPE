@@ -15,7 +15,11 @@ namespace SCAPE.Application.Services
             _employeeRepository = employeeRepository;
         }
 
-
+        /// <summary>
+        /// This method contain bussiness logic
+        /// Insert employee from repository
+        /// </summary>
+        /// <param name="employee">Employee yo insert</param>
         public async Task insertEmployee(Employee employee)
         {
             await _employeeRepository.insertEmployee(employee);
