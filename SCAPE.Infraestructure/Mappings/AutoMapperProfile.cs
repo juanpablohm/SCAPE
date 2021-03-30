@@ -9,7 +9,11 @@ namespace SCAPE.Infraestructure.Mappings
 {
     public class AutoMapperProfile : Profile
     {
-        CreateMap<Employee, EmployeeDTO>();
-        CreateMap<EmployeeDTO, Employee>();
+        public AutoMapperProfile()
+        {
+            CreateMap<Employee, EmployeeDTO>();
+            CreateMap<EmployeeDTO, Employee>();
+        }
+       
     }
 }

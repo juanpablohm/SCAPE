@@ -1,0 +1,8 @@
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Domain\bin\Debug\netstandard2.0\SCAPE.Domain.deps.json
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Domain\bin\Debug\netstandard2.0\SCAPE.Domain.dll
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Domain\bin\Debug\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.AssemblyInfoInputs.cache
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.AssemblyInfo.cs
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.csproj.CoreCompileInputs.cache
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.dll
+C:\Users\juanp\source\repos\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.pdb

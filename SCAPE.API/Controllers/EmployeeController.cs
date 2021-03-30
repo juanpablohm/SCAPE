@@ -12,6 +12,7 @@ namespace SCAPE.API.Controllers
     public class EmployeeController : ControllerBase
     {
         //private readonly IEmployeeService;
+        //private readonly IMapper _mapper;
 
         //public EmployeeController(IEmployeeService )
         //{

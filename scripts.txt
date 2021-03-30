@@ -1,0 +1,77 @@
+
+CREATE TABLE [Employee] (
+    [id] INT  NOT NULL ,
+    [documentId] VARCHAR(200)  NOT NULL UNIQUE ,
+    [firstName] VARCHAR(200)  NOT NULL ,
+    [lastName] VARCHAR(200)  NOT NULL ,
+    [email] VARCHAR(200)  NULL ,
+    [sex] CHAR   NULL ,
+    [dateBirth] DATETIME   NULL ,
+    CONSTRAINT [PK_Employee] PRIMARY KEY CLUSTERED (
+        [id] ASC
+    )
+)
+
+CREATE TABLE [WorkPlace] (
+    [id] INT  NOT NULL ,
+    [name] VARCHAR(500)  NOT NULL ,
+    [address] VARCHAR(500)  NOT NULL ,
+    [latitudePosition] DECIMAL(12,9)  NOT NULL ,
+    [longitudePosition] DECIMAL(12,9)  NOT NULL ,
+    CONSTRAINT [PK_WorkPlace] PRIMARY KEY CLUSTERED (
+        [id] ASC
+    )
+)
+
+CREATE TABLE [Employee_WorkPlace] (
+    [idEmployee] INT  NOT NULL ,
+    [idWorkPlace] INT  NOT NULL ,
+    [startJobDate] DATETIME  NOT NULL ,
+    [endJobDate] DATETIME  NOT NULL ,
+    [schedule] VARCHAR(500)  NOT NULL ,
+    CONSTRAINT [PK_Employee_WorkPlace] PRIMARY KEY CLUSTERED (
+        [idEmployee] ASC,[idWorkPlace] ASC
+    )
+)
+
+CREATE TABLE [Attendance] (
+    [id] INT  NOT NULL ,
+    [date] DATETIME  NOT NULL ,
+    [type] CHAR  NOT NULL ,
+    [idEmployee] INT  NOT NULL ,
+    CONSTRAINT [PK_Attendance] PRIMARY KEY CLUSTERED (
+        [id] ASC
+    )
+)
+
+CREATE TABLE [Image] (
+    [url] VARCHAR(300)  NOT NULL ,
+    [idEmployee] INT  NOT NULL 
+)
+
+ALTER TABLE [Employee_WorkPlace] WITH CHECK ADD CONSTRAINT [FK_Employee_WorkPlace_idEmployee] FOREIGN KEY([idEmployee])
+REFERENCES [Employee] ([id])
+
+ALTER TABLE [Employee_WorkPlace] CHECK CONSTRAINT [FK_Employee_WorkPlace_idEmployee]
+
+ALTER TABLE [Employee_WorkPlace] WITH CHECK ADD CONSTRAINT [FK_Employee_WorkPlace_idWorkPlace] FOREIGN KEY([idWorkPlace])
+REFERENCES [WorkPlace] ([id])
+
+ALTER TABLE [Employee_WorkPlace] CHECK CONSTRAINT [FK_Employee_WorkPlace_idWorkPlace]
+
+ALTER TABLE [Attendance] WITH CHECK ADD CONSTRAINT [FK_Attendance_idEmployee] FOREIGN KEY([idEmployee])
+REFERENCES [Employee] ([id])
+
+ALTER TABLE [Attendance] CHECK CONSTRAINT [FK_Attendance_idEmployee]
+
+ALTER TABLE [Image] WITH CHECK ADD CONSTRAINT [FK_Image_idEmployee] FOREIGN KEY([idEmployee])
+REFERENCES [Employee] ([id])
+
+ALTER TABLE [Image] CHECK CONSTRAINT [FK_Image_idEmployee]
+
+
+INSERT [Employee] VALUES (1, 1234, 'Juan', 'Molina', 'juan@gmail.com', 'M', '20120618 10:34:09 AM' )
+INSERT [Employee] VALUES (2, 12345, 'Pedro', 'Sanchez', 'pedro@gmail.com', 'M', '20210618 10:34:09 AM')
+
+
+
