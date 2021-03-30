@@ -9,30 +9,31 @@ namespace SCAPE.Infraestructure.Context.Configuration
 {
     class WorkPlaceConfiguration : IEntityTypeConfiguration<WorkPlace>
     {
-        public void Configure(EntityTypeBuilder<WorkPlace> builder)
+        public void Configure(EntityTypeBuilder<WorkPlace> entity)
         {
-            builder.Property(e => e.Id)
-                   .HasColumnName("id")
-                   .ValueGeneratedNever();
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.Id).HasColumnName("id");
 
-            builder.Property(e => e.Address)
+            entity.Property(e => e.Address)
                 .IsRequired()
                 .HasColumnName("address")
+                .HasMaxLength(1000)
+                .IsUnicode(false);
+
+            entity.Property(e => e.LatitudePosition)
+                .HasColumnName("latitudePosition")
                 .HasMaxLength(500)
                 .IsUnicode(false);
 
-            builder.Property(e => e.LatitudePosition)
-                .HasColumnName("latitudePosition")
-                .HasColumnType("decimal(12, 9)");
-
-            builder.Property(e => e.LongitudePosition)
+            entity.Property(e => e.LongitudePosition)
                 .HasColumnName("longitudePosition")
-                .HasColumnType("decimal(12, 9)");
+                .HasMaxLength(500)
+                .IsUnicode(false);
 
-            builder.Property(e => e.Name)
+            entity.Property(e => e.Name)
                 .IsRequired()
                 .HasColumnName("name")
-                .HasMaxLength(500)
+                .HasMaxLength(1000)
                 .IsUnicode(false);
         }
     }

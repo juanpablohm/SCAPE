@@ -1,11 +1,9 @@
-﻿using SCAPE.Domain.Entities;
+﻿using SCAPE.Application.Interfaces;
+using SCAPE.Domain.Entities;
 using SCAPE.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace SCAPE.Domain.Services
+namespace SCAPE.Application.Services
 {
     public class EmployeeService : IEmployeeService
     {

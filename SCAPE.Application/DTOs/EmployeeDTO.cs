@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SCAPE.Domain.DTOs
+namespace SCAPE.Application.DTOs
 {
     public class EmployeeDTO
     {

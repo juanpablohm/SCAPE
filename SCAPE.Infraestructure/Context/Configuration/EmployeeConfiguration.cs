@@ -7,44 +7,45 @@ namespace SCAPE.Infraestructure.Context.Configuration
 {
     public class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
     {
-        public void Configure(EntityTypeBuilder<Employee> builder)
+        public void Configure(EntityTypeBuilder<Employee> entity)
         {
-            builder.HasIndex(e => e.DocumentId)
-                   .HasName("UQ__Employee__EFAAAD845830720A")
-                   .IsUnique();
+            entity.HasKey(e => e.Id);
 
-            builder.Property(e => e.Id)
-                .HasColumnName("id")
-                .ValueGeneratedNever();
+            entity.HasIndex(e => e.DocumentId)
+                    .HasName("UQ__Employee__EFAAAD84910DD433")
+                    .IsUnique();
 
-            builder.Property(e => e.DateBirth)
+            entity.Property(e => e.Id).HasColumnName("id");
+
+            entity.Property(e => e.DateBirth)
                 .HasColumnName("dateBirth")
                 .HasColumnType("datetime");
 
-            builder.Property(e => e.DocumentId)
+            entity.Property(e => e.DocumentId)
                 .IsRequired()
                 .HasColumnName("documentId")
-                .HasMaxLength(200)
+                .HasMaxLength(500)
                 .IsUnicode(false);
 
-            builder.Property(e => e.Email)
+            entity.Property(e => e.Email)
                 .HasColumnName("email")
-                .HasMaxLength(200)
+                .HasMaxLength(500)
                 .IsUnicode(false);
 
-            builder.Property(e => e.FirstName)
+            entity.Property(e => e.FirstName)
                 .IsRequired()
                 .HasColumnName("firstName")
-                .HasMaxLength(200)
+                .HasMaxLength(500)
                 .IsUnicode(false);
 
-            builder.Property(e => e.LastName)
+            entity.Property(e => e.LastName)
                 .IsRequired()
                 .HasColumnName("lastName")
-                .HasMaxLength(200)
+                .HasMaxLength(500)
                 .IsUnicode(false);
 
-            builder.Property(e => e.Sex)
+            entity.Property(e => e.Sex)
+                .IsRequired()
                 .HasColumnName("sex")
                 .HasMaxLength(1)
                 .IsUnicode(false)

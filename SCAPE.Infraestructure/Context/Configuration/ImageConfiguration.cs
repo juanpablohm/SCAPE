@@ -10,23 +10,25 @@ namespace SCAPE.Infraestructure.Context.Configuration
     public class ImageConfiguration : IEntityTypeConfiguration<Image>
     {
 
-        public void Configure(EntityTypeBuilder<Image> builder)
+        public void Configure(EntityTypeBuilder<Image> entity)
         {
-            builder.HasNoKey();
+            entity.HasKey(e => e.Id);
 
-            builder.Property(e => e.IdEmployee).HasColumnName("idEmployee");
+            entity.Property(e => e.Id).HasColumnName("id");
 
-            builder.Property(e => e.Url)
+            entity.Property(e => e.IdEmployee).HasColumnName("idEmployee");
+
+            entity.Property(e => e.Url)
                 .IsRequired()
                 .HasColumnName("url")
-                .HasMaxLength(300)
+                .HasMaxLength(500)
                 .IsUnicode(false);
 
-            builder.HasOne(d => d.IdEmployeeNavigation)
+            entity.HasOne(d => d.IdEmployeeNavigation)
                 .WithMany(p => p.Image)
                 .HasForeignKey(d => d.IdEmployee)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Image_idEmployee");
+                .HasConstraintName("FK_EmployeeImage");
         }
     }
 }
