@@ -43,15 +43,24 @@ namespace SCAPE.Infraestructure.FaceRecognition
             DetectedFace face = detectedFaces[0];
             int[] faceRectangle = { face.FaceRectangle.Top, face.FaceRectangle.Left, face.FaceRectangle.Height, face.FaceRectangle.Width };
 
-            Face newFace = new Face(face.FaceId.ToString(), faceRectangle );
+            Face newFace = new Face(face.FaceId, faceRectangle );
 
             return newFace;
 
         }
 
-        public string findSimilar(Face face, string faceListId)
+        public async Task<string> findSimilar(Face face, string faceListId)
         {
-            throw new NotImplementedException();
+            IFaceClient client = Authenticate(ENDPOINT, API_KEY);
+
+            List<SimilarFace> similarFaces = (List<SimilarFace>) await client.Face.FindSimilarAsync((Guid)face.FaceId, faceListId);
+
+            if (similarFaces.Count != 1)
+            {
+                return null;
+            }
+
+            return similarFaces[0].PersistedFaceId.ToString();
         }
 
         private static IFaceClient Authenticate(string endpoint, string key)
@@ -65,5 +74,6 @@ namespace SCAPE.Infraestructure.FaceRecognition
             MemoryStream memoryStream = new MemoryStream(bytesImage);
             return memoryStream;
         }
+
     }
 }

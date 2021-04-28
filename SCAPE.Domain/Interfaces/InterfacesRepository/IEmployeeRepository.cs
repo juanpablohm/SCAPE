@@ -13,5 +13,7 @@ namespace SCAPE.Domain.Interfaces
         Task saveImageEmployee(EmployeeImage image);
 
         Task<Employee> findEmployee(string documentId);
+
+        Task<Employee> findEmployeeByPersistedFaceId(string persistedFaceId);
     }
 }

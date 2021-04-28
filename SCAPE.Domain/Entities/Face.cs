@@ -7,12 +7,12 @@ namespace SCAPE.Domain.Entities
     public class Face
     {
 
-        private string FaceId { get; set; }
+        public Guid? FaceId { get; set; }
 
-        private int[] FaceRectangle { get; set; }
+        public int[] FaceRectangle { get; set; }
 
 
-        public Face(String faceId, int[] faceRectangle)
+        public Face(Guid? faceId, int[] faceRectangle)
         {
             FaceId = faceId;
             FaceRectangle = faceRectangle;

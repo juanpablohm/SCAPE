@@ -1,4 +1,5 @@
-﻿using SCAPE.Application.Interfaces;
+﻿using SCAPE.Application.DTOs;
+using SCAPE.Application.Interfaces;
 using SCAPE.Domain.Entities;
 using SCAPE.Domain.Exceptions;
 using SCAPE.Domain.Interfaces;
@@ -42,6 +43,27 @@ namespace SCAPE.Application.Services
             await _employeeRepository.saveImageEmployee(new EmployeeImage(persistenFaceId, employee.Id, bytesImage));
 
             return true;
+        }
+
+        public async Task<Employee> getEmployeeByFace(string encodeImage, string faceListId)
+        {
+            Face faceDetected = await _faceRecognition.detectFaceAsync(encodeImage, faceListId);
+
+            if (faceDetected == null)
+            {
+                throw new FaceRecognitionException("The image must contain only one face");
+            }
+
+            string persistedFaceId = await _faceRecognition.findSimilar(faceDetected, faceListId);
+
+            if (persistedFaceId == null)
+            {
+                throw new FaceRecognitionException("No persistedFaceid found for this face");
+            }
+
+            Employee employee = await _employeeRepository.findEmployeeByPersistedFaceId(persistedFaceId);
+
+            return employee;
         }
 
         /// <summary>

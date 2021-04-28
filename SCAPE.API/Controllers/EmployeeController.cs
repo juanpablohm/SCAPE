@@ -36,7 +36,7 @@ namespace SCAPE.API.Controllers
         }
 
         [HttpPost]
-        [Route("{AssociateImage}")]
+        [Route("AssociateImage")]
         public async Task<IActionResult> associateFace(AssociateFaceModel data)
         {
             string documentId = data.documentId;
@@ -48,6 +48,18 @@ namespace SCAPE.API.Controllers
 
         }
 
+        [HttpPost]
+        [Route("GetEmployeeByImage")]
+        public async Task<IActionResult> getEmployeeByFace(FindEmployeeModel data)
+        {
+            string encodeImage = data.encodeImage;
+            string faceListId = data.faceListId;
+
+            Employee employee = await _employeeService.getEmployeeByFace(encodeImage,faceListId);
+            EmployeeDTO employeeDTO = _mapper.Map<EmployeeDTO>(employee);
+            return Ok(employeeDTO);
+
+        }
 
     }
 }

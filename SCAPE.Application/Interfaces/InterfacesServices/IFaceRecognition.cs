@@ -10,6 +10,6 @@ namespace SCAPE.Application.Interfaces
     {
         Task<Face> detectFaceAsync(String encodeImage, String faceListId);
         Task<String> addFaceAsync(String encodeImage, String faceListId);
-        String findSimilar(Face face, String faceListId);
+        Task<String> findSimilar(Face face, String faceListId);
     }
 }
