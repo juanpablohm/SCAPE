@@ -12,6 +12,7 @@ CREATE TABLE [dbo].[Employee](
 	[email] [varchar](500) NULL,
 	[sex] [char] NOT NULL,
 	[dateBirth] [datetime] NOT NULL,
+	[faceListId] [varchar](500),
 
 
  CONSTRAINT [PK_Employee] PRIMARY KEY CLUSTERED 
@@ -47,7 +48,7 @@ CREATE TABLE [dbo].[Employee_WorkPlace](
 	[idWorkPlace] [int]  NOT NULL,
 	[startJobDate] [datetime] NOT NULL,
 	[endJobDate] [datetime] NOT NULL,
-	[schedule] [varchar](500) NOT NULL,
+	[schedule] [varchar](500) NULL,
 	
  CONSTRAINT [PK_EmployeeWorkPlace] PRIMARY KEY CLUSTERED 
 (
@@ -79,7 +80,8 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Image](
 	[id] [int] IDENTITY(1,1) NOT NULL,
-	[url] [varchar] (500) NOT NULL,
+	[image] [varbinary](max) NULL,
+	[persistenceFaceId] [varchar](500) NULL,
 	[idEmployee] [int] NOT NULL,
 
  CONSTRAINT [PK_Image] PRIMARY KEY CLUSTERED 
@@ -91,8 +93,8 @@ GO
 
 SET IDENTITY_INSERT [dbo].[Employee] ON 
 
-INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth]) VALUES (1, 1234, 'Juan', 'Molina', 'juan@gmail.com', 'M', '20120618 10:34:09 AM')
-INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth]) VALUES (2, 12345, 'Pedro', 'Sanchez', 'pedro@gmail.com', 'M', '20120618 10:34:09 AM')
+INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth],[faceListId]) VALUES (1, 1234, 'Juan', 'Molina', 'juan@gmail.com', 'M', '20120618 10:34:09 AM', 'prueba')
+INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth],[faceListId]) VALUES (2, 12345, 'Pedro', 'Sanchez', 'pedro@gmail.com', 'M', '20120618 10:34:09 AM', 'prueba')
 
 SET IDENTITY_INSERT [dbo].[Employee] OFF
 

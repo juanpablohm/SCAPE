@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using SCAPE.API.ActionsModels;
 using SCAPE.Application.DTOs;
 using SCAPE.Application.Interfaces;
 using SCAPE.Domain.Entities;
@@ -33,6 +34,20 @@ namespace SCAPE.API.Controllers
             await _employeeService.insertEmployee(employee);
             return Ok("Succesfull");
         }
+
+        [HttpPost]
+        [Route("{AssociateImage}")]
+        public async Task<IActionResult> associateFace(AssociateFaceModel data)
+        {
+            string documentId = data.documentId;
+            string encodeImage = data.encodeImage;
+
+            bool resultAssociate =  await _employeeService.associateFace(documentId, encodeImage);
+
+            return Ok(resultAssociate);
+
+        }
+
 
     }
 }

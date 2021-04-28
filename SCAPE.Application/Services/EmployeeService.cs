@@ -1,6 +1,8 @@
 ﻿using SCAPE.Application.Interfaces;
 using SCAPE.Domain.Entities;
+using SCAPE.Domain.Exceptions;
 using SCAPE.Domain.Interfaces;
+using System;
 using System.Threading.Tasks;
 
 namespace SCAPE.Application.Services
@@ -9,10 +11,37 @@ namespace SCAPE.Application.Services
     {
 
         private readonly IEmployeeRepository _employeeRepository;
+        private readonly IFaceRecognition _faceRecognition;
 
-        public EmployeeService(IEmployeeRepository employeeRepository)
+        public EmployeeService(IEmployeeRepository employeeRepository, IFaceRecognition faceRecognition)
         {
             _employeeRepository = employeeRepository;
+            _faceRecognition = faceRecognition;
+        }
+
+        public async Task<bool> associateFace(string documentId, string encodeImage)
+        {
+            Employee employee = await findEmployee(documentId);
+
+            if(employee == null)
+            {
+                throw new EmployeeDocumentException("Employee's document is not valid");
+            }
+                
+            Face faceDetected = await _faceRecognition.detectFaceAsync(encodeImage,employee.FaceListId);
+
+            if(faceDetected == null)
+            {
+                throw new FaceRecognitionException("The image must contain only one face");
+            }
+
+            string persistenFaceId = await _faceRecognition.addFaceAsync(encodeImage, employee.FaceListId);
+
+
+            byte[] bytesImage = Convert.FromBase64String(encodeImage);
+            await _employeeRepository.saveImageEmployee(new EmployeeImage(persistenFaceId, employee.Id, bytesImage));
+
+            return true;
         }
 
         /// <summary>
@@ -23,6 +52,12 @@ namespace SCAPE.Application.Services
         public async Task insertEmployee(Employee employee)
         {
             await _employeeRepository.insertEmployee(employee);
+        }
+
+        public async Task<Employee> findEmployee(string documentId)
+        {
+            return await _employeeRepository.findEmployee(documentId);
+
         }
     }
 }

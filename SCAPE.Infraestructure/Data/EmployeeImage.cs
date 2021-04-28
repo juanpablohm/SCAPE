@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SCAPE.Domain.Entities
+namespace SCAPE.Infraestructure.Data
 {
-    public class Image
+    public partial class EmployeeImage
     {
         public int Id { get; set; }
-        public string Url { get; set; } 
+        public byte[] Image1 { get; set; }
+        public string PersistenceFaceId { get; set; }
         public int IdEmployee { get; set; }
 
         public virtual Employee IdEmployeeNavigation { get; set; }

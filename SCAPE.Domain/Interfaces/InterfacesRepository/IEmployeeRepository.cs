@@ -9,5 +9,9 @@ namespace SCAPE.Domain.Interfaces
     public interface IEmployeeRepository
     {
         Task insertEmployee(Employee employee);
+
+        Task saveImageEmployee(EmployeeImage image);
+
+        Task<Employee> findEmployee(string documentId);
     }
 }

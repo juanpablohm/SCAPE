@@ -1,4 +1,5 @@
-﻿using SCAPE.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using SCAPE.Domain.Entities;
 using SCAPE.Domain.Interfaces;
 using SCAPE.Infraestructure.Context;
 using System;
@@ -21,6 +22,19 @@ namespace SCAPE.Infraestructure.Repositories
         public async Task insertEmployee(Employee employee)
         {
             _context.Employee.Add(employee);
+            await _context.SaveChangesAsync();
+        }
+
+
+        public async Task<Employee> findEmployee(string documentId)
+        {
+            return await _context.Employee.FirstOrDefaultAsync(e => e.DocumentId == documentId);
+            
+        }
+
+        public async Task saveImageEmployee(EmployeeImage image)
+        {
+            _context.Image.Add(image);
             await _context.SaveChangesAsync();
         }
     }

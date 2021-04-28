@@ -27,6 +27,11 @@ namespace SCAPE.Infraestructure.Context.Configuration
                 .HasMaxLength(500)
                 .IsUnicode(false);
 
+            entity.Property(e => e.FaceListId)
+                   .HasColumnName("faceListId")
+                   .HasMaxLength(500)
+                   .IsUnicode(false);
+
             entity.Property(e => e.Email)
                 .HasColumnName("email")
                 .HasMaxLength(500)
