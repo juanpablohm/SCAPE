@@ -63,6 +63,11 @@ namespace SCAPE.Application.Services
 
             Employee employee = await _employeeRepository.findEmployeeByPersistedFaceId(persistedFaceId);
 
+            if (employee == null)
+            {
+                throw new EmployeeException("No Employee found in Database for this persistedFaceId");
+            }
+
             return employee;
         }
 

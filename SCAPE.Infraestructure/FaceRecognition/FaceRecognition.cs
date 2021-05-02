@@ -12,7 +12,7 @@ namespace SCAPE.Infraestructure.FaceRecognition
     public class FaceRecognition : IFaceRecognition
     {
 
-        private readonly string API_KEY = "06a113919fff4bdaa0a5477687bb1ad8";
+        private readonly string API_KEY = "590ea05211b24d889ba5e238cc666cdb";
         private readonly string ENDPOINT = "https://southcentralus.api.cognitive.microsoft.com/";
 
         public async Task<string> addFaceAsync(string encodeImage, string faceListId)
