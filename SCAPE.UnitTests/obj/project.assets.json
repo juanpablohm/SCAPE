@@ -7920,19 +7920,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GOMEZ\\.nuget\\packages\\": {}
+    "C:\\Users\\leoka\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.UnitTests\\SCAPE.UnitTests.csproj",
+      "projectUniqueName": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.UnitTests\\SCAPE.UnitTests.csproj",
       "projectName": "SCAPE.UnitTests",
-      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.UnitTests\\SCAPE.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.UnitTests\\obj\\",
+      "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.UnitTests\\SCAPE.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\leoka\\.nuget\\packages\\",
+      "outputPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7946,8 +7946,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.API\\SCAPE.API.csproj": {
-              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.API\\SCAPE.API.csproj"
+            "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.API\\SCAPE.API.csproj": {
+              "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.API\\SCAPE.API.csproj"
             }
           }
         }
@@ -8005,7 +8005,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

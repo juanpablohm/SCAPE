@@ -25,19 +25,31 @@ namespace SCAPE.Infraestructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-
+        /// <summary>
+        /// Find employee at the context (SCAPEDB in this case)
+        /// </summary>
+        /// <param name="documentId">employee's documentId to find</param>
+        /// <returns>>A successful call returns a Employee</returns>
         public async Task<Employee> findEmployee(string documentId)
         {
             return await _context.Employee.FirstOrDefaultAsync(e => e.DocumentId == documentId);
             
         }
-
+        /// <summary>
+        /// Saves the employee's image into the context (SCAPEDB in this case)
+        /// </summary>
+        /// <param name="image">Employee image to save</param>
         public async Task saveImageEmployee(EmployeeImage image)
         {
             _context.Image.Add(image);
             await _context.SaveChangesAsync();
         }
 
+        /// <summary>
+        ///  Find employee by PersistedFaceId at the context (SCAPEDB in this case)
+        /// </summary>
+        /// <param name="persistedFaceId">persistedFaceId to find </param>
+        /// <returns>A successful call returns a Employee</returns>
         public async Task<Employee> findEmployeeByPersistedFaceId(string persistedFaceId)
         {
             EmployeeImage image = await _context.Image.FirstOrDefaultAsync(i => i.PersistenceFaceId == persistedFaceId);

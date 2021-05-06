@@ -25,7 +25,7 @@ namespace SCAPE.API.Controllers
         /// <summary>
         /// Insert a Employee from web service
         /// </summary>
-        /// <param name="employeeDTO">Objecto in DTO (Data Transfer Object) Format</param>
+        /// <param name="employeeDTO">Object in DTO (Data Transfer Object) Format</param>
         /// <returns>If insert is succesfull, return a "Code status 200"</returns>
         [HttpPost]
         public async Task<IActionResult> insertEmployee(EmployeeDTO employeeDTO)
@@ -34,7 +34,11 @@ namespace SCAPE.API.Controllers
             await _employeeService.insertEmployee(employee);
             return Ok("Succesfull");
         }
-
+        /// <summary>
+        /// Associate a face  to Employee
+        /// </summary>
+        /// <param name="data">Model with documentId and EncodeImage in AsoociateFaceModel class </param>
+        /// <returns>If  associate is succesfull, return a "Code status 200" and bool true </returns>
         [HttpPost]
         [Route("AssociateImage")]
         public async Task<IActionResult> associateFace(AssociateFaceModel data)
@@ -47,7 +51,11 @@ namespace SCAPE.API.Controllers
             return Ok(resultAssociate);
 
         }
-
+        /// <summary>
+        /// Get Employee by Face Recognition
+        /// </summary>
+        /// <param name="data">Model with faceListId and EncodeImage in FindEmployeeModel class</param>
+        /// <returns>If get is succesfull, return a Employee and "Code status 200"</returns>
         [HttpPost]
         [Route("GetEmployeeByImage")]
         public async Task<IActionResult> getEmployeeByFace(FindEmployeeModel data)

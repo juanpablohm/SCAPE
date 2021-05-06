@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "M6QUPYVb+w+31BngCb+GJ7KHPuIufcxyYyaxOz38ppLN3RnIuvwmLUZiJkJANpX1+aSZyUzqKNKda8JgjBNC4A==",
+  "dgSpecHash": "YcuAKypWkwj6OM19MhhKZD3CJdt7giNUCyhCw7qUiXBmcwkk8iAihRBcXtAube9ng1pjf35YooEs9aEmcDprEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj",
+  "projectFilePath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\GOMEZ\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\GOMEZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\leoka\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\leoka\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

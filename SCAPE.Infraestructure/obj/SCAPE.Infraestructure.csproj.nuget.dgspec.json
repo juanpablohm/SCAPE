@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj": {}
+    "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
+    "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Application\\SCAPE.Application.csproj",
+        "projectUniqueName": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj",
         "projectName": "SCAPE.Application",
-        "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Application\\SCAPE.Application.csproj",
-        "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Application\\obj\\",
+        "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj",
+        "packagesPath": "C:\\Users\\leoka\\.nuget\\packages\\",
+        "outputPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
-                "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
+              "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
+                "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
               }
             }
           }
@@ -61,21 +61,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
+    "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj",
+        "projectUniqueName": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj",
         "projectName": "SCAPE.Domain",
-        "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj",
-        "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\obj\\",
+        "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj",
+        "packagesPath": "C:\\Users\\leoka\\.nuget\\packages\\",
+        "outputPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,21 +118,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj": {
+    "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
+        "projectUniqueName": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
         "projectName": "SCAPE.Infraestructure",
-        "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Infraestructure\\obj\\",
+        "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\leoka\\.nuget\\packages\\",
+        "outputPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,11 +146,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
-                "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Application\\SCAPE.Application.csproj"
+              "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
+                "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj"
               },
-              "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
-                "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\Proyecto SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
+              "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
+                "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
               }
             }
           }
@@ -200,7 +200,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
