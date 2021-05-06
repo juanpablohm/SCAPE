@@ -25,22 +25,22 @@ namespace SCAPE.Application.Services
             Employee employee = await findEmployee(documentId);
 
             if(employee == null)
-            {
                 throw new EmployeeDocumentException("Employee's document is not valid");
-            }
-                
+                      
             Face faceDetected = await _faceRecognition.detectFaceAsync(encodeImage,employee.FaceListId);
 
             if(faceDetected == null)
-            {
                 throw new FaceRecognitionException("The image must contain only one face");
-            }
 
-            string persistenFaceId = await _faceRecognition.addFaceAsync(encodeImage, employee.FaceListId);
+            string alreadyAssociate = await _faceRecognition.findSimilar(faceDetected, employee.FaceListId);
 
+            if (alreadyAssociate != null)
+                throw new FaceRecognitionException("The image has already been associated with an employee");
+
+            string newPersistenFaceId = await _faceRecognition.addFaceAsync(encodeImage, employee.FaceListId);
 
             byte[] bytesImage = Convert.FromBase64String(encodeImage);
-            await _employeeRepository.saveImageEmployee(new EmployeeImage(persistenFaceId, employee.Id, bytesImage));
+            await _employeeRepository.saveImageEmployee(new EmployeeImage(newPersistenFaceId, employee.Id, bytesImage));
 
             return true;
         }
