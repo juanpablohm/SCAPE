@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using SCAPE.Application.Interfaces;
 using SCAPE.Domain.Entities;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
@@ -80,18 +81,19 @@ namespace SCAPE.Infraestructure.FaceRecognition
 
             try
             {
-                similarFaces = (List<SimilarFace>)await client.Face.FindSimilarAsync((Guid)face.FaceId, faceListId);
-                if (similarFaces.Count != 1)
-                {
-                    return null;
-                }
+                similarFaces = (List<SimilarFace>) await client.Face.FindSimilarAsync((Guid)face.FaceId, faceListId);
             }
             catch(APIErrorException e)
             {
                 if(e.Body.Error.Code.Equals("FaceListNotReady"))
                         return null;
             }
-           
+
+            if (similarFaces == null || similarFaces.Count != 1)
+            {
+                return null;
+            }
+
             return similarFaces[0].PersistedFaceId.ToString();
         }
         /// <summary>

@@ -53,6 +53,12 @@ namespace SCAPE.Infraestructure.Repositories
         public async Task<Employee> findEmployeeByPersistedFaceId(string persistedFaceId)
         {
             EmployeeImage image = await _context.Image.FirstOrDefaultAsync(i => i.PersistenceFaceId == persistedFaceId);
+            
+            if (image == null)
+            {
+                return null;
+            }
+            
             return await _context.Employee.FirstOrDefaultAsync(e => e.Id == image.IdEmployee);
         }
     }
