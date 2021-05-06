@@ -1,0 +1,33 @@
+[{
+  "documentId": "9876",
+  "firstName": "Juan",
+  "lastName": "Monitor",
+  "email": "monitor@gmail.com",
+  "sex": "M",
+  "dateBirth": "2021-04-07T10:50:00"
+},
+{
+  "documentId": "10538",
+  "firstName": "Juan",
+  "lastName": "Gomez",
+  "email": "gomez@gmail.com",
+  "sex": "M",
+  "dateBirth": "2021-04-07T10:50:00"
+},
+{
+  "documentId": "123123",
+  "firstName": "Sandra",
+  "lastName": "Profe",
+  "email": "sandra@gmail.com",
+  "sex": "F",
+  "dateBirth": "2021-04-07T10:50:00"
+},
+{
+  "documentId": "9999",
+  "firstName": "Falcao",
+  "lastName": "Garcia",
+  "email": "falcao@gmail.com",
+  "sex": "M",
+  "dateBirth": "2021-04-07T10:50:00"
+}
+]

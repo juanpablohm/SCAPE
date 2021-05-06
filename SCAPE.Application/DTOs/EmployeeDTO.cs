@@ -12,6 +12,7 @@ namespace SCAPE.Application.DTOs
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Sex { get; set; }
+        public string FaceListId { get; set; }
         public DateTime? DateBirth { get; set; }
     }
 }

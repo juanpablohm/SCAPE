@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace SCAPE.Infraestructure.Data
 {
-    public partial class SCAPEContext : DbContext
+    public partial class SCAPEDBContext : DbContext
     {
-        public SCAPEContext()
+        public SCAPEDBContext()
         {
         }
 
-        public SCAPEContext(DbContextOptions<SCAPEContext> options)
+        public SCAPEDBContext(DbContextOptions<SCAPEDBContext> options)
             : base(options)
         {
         }
@@ -18,7 +18,7 @@ namespace SCAPE.Infraestructure.Data
         public virtual DbSet<Attendance> Attendance { get; set; }
         public virtual DbSet<Employee> Employee { get; set; }
         public virtual DbSet<EmployeeWorkPlace> EmployeeWorkPlace { get; set; }
-        public virtual DbSet<Image> Image { get; set; }
+        public virtual DbSet<EmployeeImage> Image { get; set; }
         public virtual DbSet<WorkPlace> WorkPlace { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -26,7 +26,7 @@ namespace SCAPE.Infraestructure.Data
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=SCAPE;Integrated Security = true");
+                optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=SCAPEDB;Integrated Security = true");
             }
         }
 
@@ -59,7 +59,7 @@ namespace SCAPE.Infraestructure.Data
             modelBuilder.Entity<Employee>(entity =>
             {
                 entity.HasIndex(e => e.DocumentId)
-                    .HasName("UQ__Employee__EFAAAD84910DD433")
+                    .HasName("UQ__Employee__EFAAAD841838F559")
                     .IsUnique();
 
                 entity.Property(e => e.Id).HasColumnName("id");
@@ -76,6 +76,11 @@ namespace SCAPE.Infraestructure.Data
 
                 entity.Property(e => e.Email)
                     .HasColumnName("email")
+                    .HasMaxLength(500)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FaceListId)
+                    .HasColumnName("faceListId")
                     .HasMaxLength(500)
                     .IsUnicode(false);
 
@@ -115,7 +120,6 @@ namespace SCAPE.Infraestructure.Data
                     .HasColumnType("datetime");
 
                 entity.Property(e => e.Schedule)
-                    .IsRequired()
                     .HasColumnName("schedule")
                     .HasMaxLength(500)
                     .IsUnicode(false);
@@ -137,15 +141,16 @@ namespace SCAPE.Infraestructure.Data
                     .HasConstraintName("FK_WorkPlace");
             });
 
-            modelBuilder.Entity<Image>(entity =>
+            modelBuilder.Entity<EmployeeImage>(entity =>
             {
                 entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.IdEmployee).HasColumnName("idEmployee");
 
-                entity.Property(e => e.Url)
-                    .IsRequired()
-                    .HasColumnName("url")
+                entity.Property(e => e.Image1).HasColumnName("image");
+
+                entity.Property(e => e.PersistenceFaceId)
+                    .HasColumnName("persistenceFaceId")
                     .HasMaxLength(500)
                     .IsUnicode(false);
 

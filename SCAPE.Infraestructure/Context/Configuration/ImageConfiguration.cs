@@ -7,20 +7,23 @@ using System.Text;
 
 namespace SCAPE.Infraestructure.Context.Configuration
 {
-    public class ImageConfiguration : IEntityTypeConfiguration<Image>
+    public class ImageConfiguration : IEntityTypeConfiguration<EmployeeImage>
     {
 
-        public void Configure(EntityTypeBuilder<Image> entity)
+        public void Configure(EntityTypeBuilder<EmployeeImage> entity)
         {
             entity.HasKey(e => e.Id);
+
+            entity.ToTable("Image");
 
             entity.Property(e => e.Id).HasColumnName("id");
 
             entity.Property(e => e.IdEmployee).HasColumnName("idEmployee");
 
-            entity.Property(e => e.Url)
-                .IsRequired()
-                .HasColumnName("url")
+            entity.Property(e => e.Image).HasColumnName("image");
+
+            entity.Property(e => e.PersistenceFaceId)
+                .HasColumnName("persistenceFaceId")
                 .HasMaxLength(500)
                 .IsUnicode(false);
 
