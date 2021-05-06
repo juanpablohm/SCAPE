@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Scripts"
+    "\\SCAPE.Infraestructure",
+    "\\SCAPE.Infraestructure\\Context",
+    "\\SCAPE.Infraestructure\\Context\\Configuration"
   ],
-  "SelectedNode": "\\Scripts\\scriptSCAPEDB.sql",
+  "SelectedNode": "\\Scripts",
   "PreviewInSolutionExplorer": false
 }

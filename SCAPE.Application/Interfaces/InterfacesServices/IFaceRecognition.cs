@@ -8,7 +8,7 @@ namespace SCAPE.Application.Interfaces
 {
     public interface IFaceRecognition
     {
-        Task<Face> detectFaceAsync(String encodeImage, String faceListId);
+        Task<Face> detectFaceAsync(String encodeImage);
         Task<String> addFaceAsync(String encodeImage, String faceListId);
         Task<String> findSimilar(Face face, String faceListId);
     }

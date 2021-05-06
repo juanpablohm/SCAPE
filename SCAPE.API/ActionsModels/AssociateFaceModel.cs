@@ -9,5 +9,6 @@ namespace SCAPE.API.ActionsModels
     {
         public string documentId { get; set; }
         public string encodeImage { get; set; }
+        public string faceListId { get; set; }
     }
 }

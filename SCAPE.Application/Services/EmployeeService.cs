@@ -21,17 +21,18 @@ namespace SCAPE.Application.Services
         }
         /// <summary>
         /// This method contain bussiness logic 
-        /// Associate face to Employye
+        /// Associate face to an Employee, and save the employee's image in the database
         /// </summary>
         /// <param name="documentId">string with employee document id</param>
         /// <param name="encodeImage">string with encoded image</param>
+        /// <param name="faceListId">string with the id of the face list to be associated with</param>
         /// <returns>
         /// if there is not employee return a error message,
         /// if there is not face detected return a error message,
         /// if there is already register face return a error message,
         /// if insert success, return true
         /// </returns>
-        public async Task<bool> associateFace(string documentId, string encodeImage)
+        public async Task<bool> associateFace(string documentId, string encodeImage, string faceListId)
         {
             Employee employee = await findEmployee(documentId);
 
@@ -39,16 +40,17 @@ namespace SCAPE.Application.Services
             {
                 throw new EmployeeDocumentException("Employee's document is not valid");
             }
-                
-            Face faceDetected = await _faceRecognition.detectFaceAsync(encodeImage,employee.FaceListId);
 
-            if(faceDetected == null)
+            Face faceDetected = await identifyFaceInImage(encodeImage);
+
+            string alreadyAssociate = await _faceRecognition.findSimilar(faceDetected, faceListId);
+
+            if (alreadyAssociate != null)
             {
-                throw new FaceRecognitionException("The image must contain only one face");
+                throw new FaceRecognitionException("The image has already been associated with an employee");
             }
 
-            string persistenFaceId = await _faceRecognition.addFaceAsync(encodeImage, employee.FaceListId);
-
+            string persistenFaceId = await _faceRecognition.addFaceAsync(encodeImage, faceListId);
 
             byte[] bytesImage = Convert.FromBase64String(encodeImage);
             await _employeeRepository.saveImageEmployee(new EmployeeImage(persistenFaceId, employee.Id, bytesImage));
@@ -57,7 +59,8 @@ namespace SCAPE.Application.Services
         }
         /// <summary>
         /// This method contain bussiness logic 
-        /// get employee by face
+        /// Get employee by face image, obtains the persitence face id of an image and 
+        /// verifies if it is registered in the database
         /// </summary>
         /// <param name="encodeImage">string with encoded image</param>
         /// <param name="faceListId">string with face list id</param>
@@ -69,12 +72,7 @@ namespace SCAPE.Application.Services
         /// </returns>
         public async Task<Employee> getEmployeeByFace(string encodeImage, string faceListId)
         {
-            Face faceDetected = await _faceRecognition.detectFaceAsync(encodeImage, faceListId);
-
-            if (faceDetected == null)
-            {
-                throw new FaceRecognitionException("The image must contain only one face");
-            }
+            Face faceDetected = await identifyFaceInImage(encodeImage);
 
             string persistedFaceId = await _faceRecognition.findSimilar(faceDetected, faceListId);
 
@@ -94,8 +92,27 @@ namespace SCAPE.Application.Services
         }
 
         /// <summary>
+        /// Identify the face in the input image 
+        /// </summary>
+        /// <param name="encodeImage">string with encoded image</param>
+        /// <returns>If get success, return Face object of the identified face
+        /// if there is not face detected or there is more than one face
+        /// return a error message</returns>
+        public async Task<Face> identifyFaceInImage(string encodeImage)
+        {
+            Face faceDetected = await _faceRecognition.detectFaceAsync(encodeImage);
+
+            if (faceDetected == null)
+            {
+                throw new FaceRecognitionException("The image must contain only one face");
+            }
+
+            return faceDetected;
+        }
+
+        /// <summary>
         /// This method contain bussiness logic
-        /// Insert employee from repository
+        /// Insert an employee to the repository
         /// </summary>
         /// <param name="employee">Employee to insert</param>
         public async Task insertEmployee(Employee employee)

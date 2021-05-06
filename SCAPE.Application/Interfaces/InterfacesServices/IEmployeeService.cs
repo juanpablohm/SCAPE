@@ -8,7 +8,7 @@ namespace SCAPE.Application.Interfaces
     {
         Task insertEmployee(Employee employee);
 
-        Task<bool> associateFace(string documentId, string encodeImage);
+        Task<bool> associateFace(string documentId, string encodeImage, string faceListId);
 
         Task<Employee> getEmployeeByFace(string encodeImage,string faceListId);
 

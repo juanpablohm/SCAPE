@@ -22,8 +22,7 @@ namespace SCAPE.Infraestructure.Context.Configuration
                 .HasColumnName("endJobDate")
                 .HasColumnType("datetime");
 
-            entity.Property(e => e.Schedule)
-                .IsRequired()
+            entity.Property(e => e.Schedule)           
                 .HasColumnName("schedule")
                 .HasMaxLength(500)
                 .IsUnicode(false);

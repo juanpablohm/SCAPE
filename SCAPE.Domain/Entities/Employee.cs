@@ -19,7 +19,6 @@ namespace SCAPE.Domain.Entities
         public string Email { get; set; }
         public string Sex { get; set; }
         public DateTime? DateBirth { get; set; }
-        public string FaceListId { get; set; }
 
         public virtual ICollection<Attendance> Attendance { get; set; }
         public virtual ICollection<EmployeeWorkPlace> EmployeeWorkPlace { get; set; }
