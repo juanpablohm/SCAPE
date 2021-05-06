@@ -26,18 +26,18 @@ namespace SCAPE.API.Controllers
         /// Insert a Employee from web service
         /// </summary>
         /// <param name="employeeDTO">Object in DTO (Data Transfer Object) Format</param>
-        /// <returns>If insert is succesfull, return a "Code status 200"</returns>
+        /// <returns>If insert is succesful, return a "Code status 200"</returns>
         [HttpPost]
         public async Task<IActionResult> insertEmployee(EmployeeDTO employeeDTO)
         {
             Employee employee = _mapper.Map<Employee>(employeeDTO);
             await _employeeService.insertEmployee(employee);
-            return Ok("Succesfull");
+            return Ok("Succesful");
         }
         /// <summary>
-        /// Associate a face  to Employee
+        /// Associate a face to an Employee
         /// </summary>
-        /// <param name="data">Model with documentId and EncodeImage in AsoociateFaceModel class </param>
+        /// <param name="data">Model with documentId, EncodeImage and faceListId in AsoociateFaceModel class </param>
         /// <returns>If  associate is succesfull, return a "Code status 200" and bool true </returns>
         [HttpPost]
         [Route("AssociateImage")]
@@ -45,8 +45,9 @@ namespace SCAPE.API.Controllers
         {
             string documentId = data.documentId;
             string encodeImage = data.encodeImage;
+            string faceListId = data.faceListId;
 
-            bool resultAssociate =  await _employeeService.associateFace(documentId, encodeImage);
+            bool resultAssociate =  await _employeeService.associateFace(documentId, encodeImage, faceListId);
 
             return Ok(resultAssociate);
 

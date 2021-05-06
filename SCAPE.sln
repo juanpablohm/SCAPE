@@ -15,13 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCAPE.UnitTests", "SCAPE.Un
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCAPE.Application", "SCAPE.Application\SCAPE.Application.csproj", "{3115380D-198A-4F82-9EA3-17ECBCDC1DC2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestInputDataFiles", "TestInputDataFiles", "{03AAEA42-3A94-48D0-8B63-63FC948F87EA}"
-	ProjectSection(SolutionItems) = preProject
-		datosEmpleados.txt = datosEmpleados.txt
-		persistedCncodeImagesBase64.txt = persistedCncodeImagesBase64.txt
-		TestImages.txt = TestImages.txt
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,7 +47,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{217A628D-9246-4819-A0FE-A3942CA7348E} = {6140034B-AF42-4918-ABD8-79AAC28FABCA}
-		{03AAEA42-3A94-48D0-8B63-63FC948F87EA} = {6140034B-AF42-4918-ABD8-79AAC28FABCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCB2FFCC-8C11-4EFD-9578-8FBEF31A1F76}

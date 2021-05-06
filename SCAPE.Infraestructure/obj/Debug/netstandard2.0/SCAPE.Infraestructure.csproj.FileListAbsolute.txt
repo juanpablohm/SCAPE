@@ -40,3 +40,17 @@ C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csproj.CopyComplete
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.dll
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csprojAssemblyReference.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.AssemblyInfo.cs
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Infraestructure.deps.json
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Infraestructure.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Infraestructure.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Application.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Domain.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Application.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csproj.CopyComplete
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csproj.CoreCompileInputs.cache

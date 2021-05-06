@@ -26,10 +26,10 @@ GO
 CREATE TABLE [dbo].[WorkPlace](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[name] [varchar](1000) NOT NULL,
-	[address] [varchar](1000) NOT NULL,
+	[address] [varchar](1000) NULL,
 	[latitudePosition] [varchar](500) NULL,
 	[longitudePosition] [varchar](500) NULL,
-	[faceListId] [varchar](500),
+	[faceListId] [varchar](500) NULL,
  CONSTRAINT [PK_WorkPlace] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
@@ -44,8 +44,8 @@ GO
 CREATE TABLE [dbo].[Employee_WorkPlace](
 	[idEmployee] [int]  NOT NULL,
 	[idWorkPlace] [int]  NOT NULL,
-	[startJobDate] [datetime] NOT NULL,
-	[endJobDate] [datetime] NOT NULL,
+	[startJobDate] [datetime] NULL,
+	[endJobDate] [datetime] NULL,
 	[schedule] [varchar](500) NULL,
 	
  CONSTRAINT [PK_EmployeeWorkPlace] PRIMARY KEY CLUSTERED 

@@ -15,10 +15,14 @@ namespace SCAPE.Infraestructure.Context.Configuration
             entity.Property(e => e.Id).HasColumnName("id");
 
             entity.Property(e => e.Address)
-                .IsRequired()
                 .HasColumnName("address")
                 .HasMaxLength(1000)
                 .IsUnicode(false);
+
+            entity.Property(e => e.FaceListId)
+               .HasColumnName("faceListId")
+               .HasMaxLength(500)
+               .IsUnicode(false);
 
             entity.Property(e => e.LatitudePosition)
                 .HasColumnName("latitudePosition")

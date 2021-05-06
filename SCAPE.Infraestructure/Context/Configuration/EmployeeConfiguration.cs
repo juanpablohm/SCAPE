@@ -12,7 +12,7 @@ namespace SCAPE.Infraestructure.Context.Configuration
             entity.HasKey(e => e.Id);
 
             entity.HasIndex(e => e.DocumentId)
-                    .HasName("UQ__Employee__EFAAAD84910DD433")
+                    .HasName("UQ__Employee__EFAAAD84A30B3E3E")
                     .IsUnique();
 
             entity.Property(e => e.Id).HasColumnName("id");
@@ -26,11 +26,6 @@ namespace SCAPE.Infraestructure.Context.Configuration
                 .HasColumnName("documentId")
                 .HasMaxLength(500)
                 .IsUnicode(false);
-
-            entity.Property(e => e.FaceListId)
-                   .HasColumnName("faceListId")
-                   .HasMaxLength(500)
-                   .IsUnicode(false);
 
             entity.Property(e => e.Email)
                 .HasColumnName("email")
@@ -49,8 +44,7 @@ namespace SCAPE.Infraestructure.Context.Configuration
                 .HasMaxLength(500)
                 .IsUnicode(false);
 
-            entity.Property(e => e.Sex)
-                .IsRequired()
+            entity.Property(e => e.Sex)       
                 .HasColumnName("sex")
                 .HasMaxLength(1)
                 .IsUnicode(false)
