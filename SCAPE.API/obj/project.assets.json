@@ -6760,20 +6760,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leoka\\.nuget\\packages\\": {}
+    "C:\\Users\\juanp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.API\\SCAPE.API.csproj",
+      "projectUniqueName": "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.API\\SCAPE.API.csproj",
       "projectName": "SCAPE.API",
-      "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.API\\SCAPE.API.csproj",
-      "packagesPath": "C:\\Users\\leoka\\.nuget\\packages\\",
-      "outputPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.API\\obj\\",
+      "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.API\\SCAPE.API.csproj",
+      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\leoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6784,16 +6791,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
-              "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj"
+            "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.Application\\SCAPE.Application.csproj": {
+              "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.Application\\SCAPE.Application.csproj"
             },
-            "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
-              "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
+            "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.Domain\\SCAPE.Domain.csproj": {
+              "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.Domain\\SCAPE.Domain.csproj"
             },
-            "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj": {
-              "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj"
+            "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEv1.0.0\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj"
             }
           }
         }
@@ -6806,7 +6812,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -6837,16 +6842,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché E:\\Materias U\\8 semestre\\software3\\proyecto\\SACPE\\SCAPE\\SCAPE.API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

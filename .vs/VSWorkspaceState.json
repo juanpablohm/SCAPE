@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Scripts"
   ],
-  "SelectedNode": "\\SCAPE.sln",
+  "SelectedNode": "\\Scripts\\scriptSCAPEDB.sql",
   "PreviewInSolutionExplorer": false
 }

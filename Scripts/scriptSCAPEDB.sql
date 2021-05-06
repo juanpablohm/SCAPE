@@ -10,11 +10,8 @@ CREATE TABLE [dbo].[Employee](
 	[firstName] [varchar](500) NOT NULL,
 	[lastName] [varchar](500) NOT NULL,
 	[email] [varchar](500) NULL,
-	[sex] [char] NOT NULL,
-	[dateBirth] [datetime] NOT NULL,
-	[faceListId] [varchar](500),
-
-
+	[sex] [char] NULL,
+	[dateBirth] [datetime]  NULL,
  CONSTRAINT [PK_Employee] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
@@ -32,6 +29,7 @@ CREATE TABLE [dbo].[WorkPlace](
 	[address] [varchar](1000) NOT NULL,
 	[latitudePosition] [varchar](500) NULL,
 	[longitudePosition] [varchar](500) NULL,
+	[faceListId] [varchar](500),
  CONSTRAINT [PK_WorkPlace] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
@@ -93,8 +91,8 @@ GO
 
 SET IDENTITY_INSERT [dbo].[Employee] ON 
 
-INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth],[faceListId]) VALUES (1, 1234, 'Juan', 'Molina', 'juan@gmail.com', 'M', '20120618 10:34:09 AM', 'prueba')
-INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth],[faceListId]) VALUES (2, 12345, 'Pedro', 'Sanchez', 'pedro@gmail.com', 'M', '20120618 10:34:09 AM', 'prueba')
+INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth]) VALUES (1, 1234, 'Juan', 'Molina', 'juan@gmail.com', 'M', '20120618 10:34:09 AM')
+INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth]) VALUES (2, 12345, 'Pedro', 'Sanchez', 'pedro@gmail.com', 'M', '20120618 10:34:09 AM')
 
 SET IDENTITY_INSERT [dbo].[Employee] OFF
 
