@@ -42,6 +42,8 @@ namespace SCAPE.API
             //Dependencias
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
             services.AddTransient<IEmployeeService, EmployeeService>();
+            services.AddTransient<IAttendanceRepository, AttendanceRepository>();
+            services.AddTransient<IAttendanceService, AttendanceService>();
             services.AddTransient<IFaceRecognition, FaceRecognition>();
 
 
