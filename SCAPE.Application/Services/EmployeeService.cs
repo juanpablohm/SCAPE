@@ -117,7 +117,17 @@ namespace SCAPE.Application.Services
         /// <param name="employee">Employee to insert</param>
         public async Task insertEmployee(Employee employee)
         {
-            await _employeeRepository.insertEmployee(employee);
+            Employee foundEmployee = await findEmployee(employee.DocumentId);
+
+            if (foundEmployee != null)
+                throw new RegisterEmployeeException("An employee with the same document id has already been registered");
+           
+            
+            bool save = await _employeeRepository.insertEmployee(employee);
+
+            if (!save)
+                throw new RegisterEmployeeException("An employee with the same email has already been registered");
+
         }
 
         /// <summary>

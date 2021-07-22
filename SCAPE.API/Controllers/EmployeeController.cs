@@ -32,7 +32,7 @@ namespace SCAPE.API.Controllers
         {
             Employee employee = _mapper.Map<Employee>(employeeDTO);
             await _employeeService.insertEmployee(employee);
-            return Ok("Succesful");
+            return Ok(true);
         }
         /// <summary>
         /// Associate a face to an Employee
