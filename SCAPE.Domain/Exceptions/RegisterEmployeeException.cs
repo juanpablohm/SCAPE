@@ -9,5 +9,10 @@ namespace SCAPE.Domain.Exceptions
         public RegisterEmployeeException() { }
 
         public RegisterEmployeeException(string message) : base(message) { }
+
+        public static implicit operator RegisterEmployeeException(FaceRecognitionException v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

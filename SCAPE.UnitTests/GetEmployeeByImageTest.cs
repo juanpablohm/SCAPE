@@ -1,18 +1,10 @@
-﻿using AutoMapper;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Moq;
-using SCAPE.API.ActionsModels;
-using SCAPE.API.Controllers;
-using SCAPE.Application.DTOs;
-using SCAPE.Application.Interfaces;
 using SCAPE.Application.Services;
 using SCAPE.Domain.Entities;
 using SCAPE.Domain.Exceptions;
 using SCAPE.Domain.Interfaces;
-using SCAPE.Infraestructure.Context;
 using SCAPE.Infraestructure.FaceRecognition;
-using SCAPE.Infraestructure.Mappings;
-using SCAPE.Infraestructure.Repositories;
 using System.IO;
 using System.Threading.Tasks;
 using Xunit;
@@ -23,6 +15,7 @@ namespace SCAPE.UnitTests
 
     {
         private readonly IConfiguration _configuration;
+
 
       
         public GetEmployeeByImageTest()
