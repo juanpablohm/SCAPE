@@ -51,6 +51,7 @@ namespace SCAPE.API.Controllers
         [Route("AssociateImage")]
         public async Task<IActionResult> associateFace(AssociateFaceModel data)
         {
+           
             string documentId = data.documentId;
             string encodeImage = data.encodeImage;
             string faceListId = data.faceListId;
