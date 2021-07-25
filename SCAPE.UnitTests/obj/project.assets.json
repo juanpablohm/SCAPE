@@ -8106,20 +8106,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GOMEZ\\.nuget\\packages\\": {}
+    "C:\\Users\\juanp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.UnitTests\\SCAPE.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.UnitTests\\SCAPE.UnitTests.csproj",
       "projectName": "SCAPE.UnitTests",
-      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.UnitTests\\SCAPE.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.UnitTests\\obj\\",
+      "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.UnitTests\\SCAPE.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8130,10 +8137,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.API\\SCAPE.API.csproj": {
-              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.API\\SCAPE.API.csproj"
+            "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.API\\SCAPE.API.csproj": {
+              "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.API\\SCAPE.API.csproj"
             }
           }
         }
@@ -8146,7 +8152,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -8191,7 +8196,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

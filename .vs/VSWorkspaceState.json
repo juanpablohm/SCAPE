@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SCAPE.Infraestructure",
+    "\\SCAPE.Infraestructure\\Context",
+    "\\SCAPE.Infraestructure\\Repositories",
+    "\\Scripts"
   ],
+  "SelectedNode": "\\SCAPE.Infraestructure\\Repositories\\EmployeeRepository.cs",
   "PreviewInSolutionExplorer": false
 }

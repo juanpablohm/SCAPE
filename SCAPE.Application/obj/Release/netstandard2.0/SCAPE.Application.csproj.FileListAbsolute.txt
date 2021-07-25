@@ -10,3 +10,15 @@ C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Applicat
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.csproj.CopyComplete
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.dll
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.pdb
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.csprojAssemblyReference.cache
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.AssemblyInfoInputs.cache
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.AssemblyInfo.cs
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.csproj.CoreCompileInputs.cache
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.dll
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.pdb
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\bin\Release\netstandard2.0\SCAPE.Application.deps.json
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\bin\Release\netstandard2.0\SCAPE.Application.dll
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\bin\Release\netstandard2.0\SCAPE.Application.pdb
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\bin\Release\netstandard2.0\SCAPE.Domain.dll
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\bin\Release\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Application\obj\Release\netstandard2.0\SCAPE.Application.csproj.CopyComplete

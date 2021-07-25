@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using SCAPE.Domain.Entities;
 using SCAPE.Domain.Interfaces;
 using SCAPE.Infraestructure.Context;
@@ -19,10 +20,26 @@ namespace SCAPE.Infraestructure.Repositories
         /// Insert employee into the context (SCAPEDB in this case)
         /// </summary>
         /// <param name="employee">Employee to insert</param>
-        public async Task insertEmployee(Employee employee)
+        public async Task<bool> insertEmployee(Employee employee)
         {
-            _context.Employee.Add(employee);
-            await _context.SaveChangesAsync();
+
+            try
+            {
+                _context.Employee.Add(employee);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                if (ex.GetBaseException().GetType() == typeof(SqlException))
+                {
+                    Int32 errorCode = ((SqlException)ex.InnerException).Number;
+
+                    if (errorCode == 2627 || errorCode == 2601)
+                        return false;
+                }
+            }
+
+            return true;
         }
 
         /// <summary>

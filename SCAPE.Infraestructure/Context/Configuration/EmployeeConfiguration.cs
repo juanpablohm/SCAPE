@@ -15,6 +15,11 @@ namespace SCAPE.Infraestructure.Context.Configuration
                     .HasName("UQ__Employee__EFAAAD84A30B3E3E")
                     .IsUnique();
 
+            entity.HasIndex(e => e.Email)
+                .HasName("IX_EMAIL")
+                .IsUnique()
+                .HasFilter("([email] IS NOT NULL)");
+
             entity.Property(e => e.Id).HasColumnName("id");
 
             entity.Property(e => e.DateBirth)

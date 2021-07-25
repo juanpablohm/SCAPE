@@ -4,6 +4,7 @@ using SCAPE.Domain.Entities;
 using SCAPE.Domain.Exceptions;
 using SCAPE.Domain.Interfaces;
 using System;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace SCAPE.Application.Services
@@ -110,14 +111,50 @@ namespace SCAPE.Application.Services
             return faceDetected;
         }
 
-        /// <summary>
-        /// This method contain bussiness logic
-        /// Insert an employee to the repository
-        /// </summary>
-        /// <param name="employee">Employee to insert</param>
+
         public async Task insertEmployee(Employee employee)
         {
-            await _employeeRepository.insertEmployee(employee);
+
+            if(String.IsNullOrWhiteSpace(employee.DocumentId) || String.IsNullOrWhiteSpace(employee.FirstName) || String.IsNullOrWhiteSpace(employee.LastName))
+                throw new RegisterEmployeeException("The document, name and lastname fields are required");
+
+            if (employee.Email != null && !isValidEmail(employee.Email))
+                throw new RegisterEmployeeException("Email address entered is not valid");
+
+            if (!isValidDocument(employee.DocumentId))
+                throw new RegisterEmployeeException("Document entered is not valid");
+
+            if (employee.Sex != null && (employee.Sex.Length >= 2 || String.IsNullOrWhiteSpace(employee.Sex)))
+                throw new RegisterEmployeeException("Sex entered is not valid");
+
+            Employee foundEmployee = await findEmployee(employee.DocumentId);
+
+            if (foundEmployee != null)
+                throw new RegisterEmployeeException("An employee with the same document id has already been registered");
+                    
+            bool save = await _employeeRepository.insertEmployee(employee);
+
+            if (!save)
+                throw new RegisterEmployeeException("An employee with the same email has already been registered");
+
+        }
+
+        private static bool isValidEmail(string email)
+        {
+            try {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return !String.IsNullOrWhiteSpace(email) && addr.Address == email ;
+            }catch {
+                return false;
+            }
+        }
+
+        private static bool isValidDocument(string documentId)
+        {
+            Regex regex = new Regex("^[1-9][0-9]+$");
+            if (!String.IsNullOrWhiteSpace(documentId) && documentId.Length == 10 && regex.IsMatch(documentId))
+                return true;
+            return false;
         }
 
         /// <summary>
@@ -128,7 +165,6 @@ namespace SCAPE.Application.Services
         public async Task<Employee> findEmployee(string documentId)
         {
             return await _employeeRepository.findEmployee(documentId);
-
         }
     }
 }

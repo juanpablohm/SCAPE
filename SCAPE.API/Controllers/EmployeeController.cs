@@ -4,6 +4,7 @@ using SCAPE.API.ActionsModels;
 using SCAPE.Application.DTOs;
 using SCAPE.Application.Interfaces;
 using SCAPE.Domain.Entities;
+using System;
 using System.Threading.Tasks;
 
 namespace SCAPE.API.Controllers
@@ -31,8 +32,15 @@ namespace SCAPE.API.Controllers
         public async Task<IActionResult> insertEmployee(EmployeeDTO employeeDTO)
         {
             Employee employee = _mapper.Map<Employee>(employeeDTO);
-            await _employeeService.insertEmployee(employee);
-            return Ok("Succesful");
+
+            try{
+                await _employeeService.insertEmployee(employee);
+
+            }catch(Exception ex)  {
+                return BadRequest(ex.Message);
+            }
+            
+            return Ok("Employee has been created");
         }
         /// <summary>
         /// Associate a face to an Employee
@@ -48,7 +56,13 @@ namespace SCAPE.API.Controllers
             string encodeImage = data.encodeImage;
             string faceListId = data.faceListId;
 
-            bool resultAssociate =  await _employeeService.associateFace(documentId, encodeImage, faceListId);
+            bool resultAssociate = false;
+
+            try {
+                resultAssociate = await _employeeService.associateFace(documentId, encodeImage, faceListId);
+            }catch (Exception ex) {
+                return BadRequest(ex.Message);
+            }
 
             return Ok(resultAssociate);
 
@@ -65,10 +79,16 @@ namespace SCAPE.API.Controllers
             string encodeImage = data.encodeImage;
             string faceListId = data.faceListId;
 
-            Employee employee = await _employeeService.getEmployeeByFace(encodeImage,faceListId);
-            EmployeeDTO employeeDTO = _mapper.Map<EmployeeDTO>(employee);
-            return Ok(employeeDTO);
+            EmployeeDTO employeeDTO = new EmployeeDTO();
 
+            try{
+                Employee employee = await _employeeService.getEmployeeByFace(encodeImage, faceListId);
+                employeeDTO = _mapper.Map<EmployeeDTO>(employee);
+            }catch (Exception ex) {
+                return BadRequest(ex.Message);
+            }
+
+            return Ok(employeeDTO);
         }
 
     }

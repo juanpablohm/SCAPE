@@ -6985,20 +6985,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GOMEZ\\.nuget\\packages\\": {}
+    "C:\\Users\\juanp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
       "projectName": "SCAPE.Infraestructure",
-      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
-      "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.Infraestructure\\obj\\",
+      "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
+      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -7009,13 +7016,12 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
-              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj"
+            "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.Application\\SCAPE.Application.csproj": {
+              "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.Application\\SCAPE.Application.csproj"
             },
-            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
-              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
+            "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.Domain\\SCAPE.Domain.csproj": {
+              "projectPath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.Domain\\SCAPE.Domain.csproj"
             }
           }
         }
@@ -7028,7 +7034,6 @@
     },
     "frameworks": {
       "netstandard2.0": {
-        "targetAlias": "netstandard2.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -7069,7 +7074,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
