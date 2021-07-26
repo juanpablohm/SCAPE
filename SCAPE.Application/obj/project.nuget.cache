@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7XOTzJ9IslHtWB+5atMWyjvaOhFwgWJehTaB8MwRxDLHoOTpCsc/EHzlkAJ/wIbyT30USLFnL0YuNpjMiqvDuA==",
+  "dgSpecHash": "c6Ek2QoWDBKftFhFkObXJTbjb0X5/btGXjeFoxwJk+cOFKgNrBBDcbC1hOg8vCI6ji++afd+0Kvm5U9946BGhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juanp\\Source\\Repos\\SCAPEi2\\SCAPE.Application\\SCAPE.Application.csproj",
+  "projectFilePath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\juanp\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\juanp\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\GOMEZ\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\GOMEZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
