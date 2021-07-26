@@ -52,3 +52,12 @@ E:\Materias U\8 semestre\software3\proyecto\SCAPE\SCAPE.Domain\obj\Debug\netstan
 E:\Materias U\8 semestre\software3\proyecto\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.csproj.CoreCompileInputs.cache
 E:\Materias U\8 semestre\software3\proyecto\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.dll
 E:\Materias U\8 semestre\software3\proyecto\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\bin\Debug\netstandard2.0\SCAPE.Domain.deps.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\bin\Debug\netstandard2.0\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\bin\Debug\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.csprojAssemblyReference.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.AssemblyInfoInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.AssemblyInfo.cs
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.csproj.CoreCompileInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Domain\obj\Debug\netstandard2.0\SCAPE.Domain.pdb

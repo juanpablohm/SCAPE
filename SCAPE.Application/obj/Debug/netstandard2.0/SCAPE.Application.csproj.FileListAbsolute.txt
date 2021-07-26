@@ -70,3 +70,15 @@ E:\Materias U\8 semestre\software3\proyecto\SCAPE\SCAPE.Application\obj\Debug\ne
 E:\Materias U\8 semestre\software3\proyecto\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.csproj.CopyComplete
 E:\Materias U\8 semestre\software3\proyecto\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.dll
 E:\Materias U\8 semestre\software3\proyecto\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\bin\Debug\netstandard2.0\SCAPE.Application.deps.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\bin\Debug\netstandard2.0\SCAPE.Application.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\bin\Debug\netstandard2.0\SCAPE.Application.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\bin\Debug\netstandard2.0\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\bin\Debug\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.csprojAssemblyReference.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.AssemblyInfoInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.AssemblyInfo.cs
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.csproj.CoreCompileInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.csproj.CopyComplete
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Application\obj\Debug\netstandard2.0\SCAPE.Application.pdb

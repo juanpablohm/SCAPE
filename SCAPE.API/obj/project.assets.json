@@ -6946,19 +6946,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leoka\\.nuget\\packages\\": {}
+    "C:\\Users\\GOMEZ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.API\\SCAPE.API.csproj",
+      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.API\\SCAPE.API.csproj",
       "projectName": "SCAPE.API",
-      "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.API\\SCAPE.API.csproj",
-      "packagesPath": "C:\\Users\\leoka\\.nuget\\packages\\",
-      "outputPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.API\\obj\\",
+      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.API\\SCAPE.API.csproj",
+      "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\leoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6972,14 +6972,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
-              "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj"
+            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj": {
+              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj"
             },
-            "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
-              "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
+            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
+              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
             },
-            "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj": {
-              "projectPath": "E:\\Materias U\\8 semestre\\software3\\proyecto\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj"
+            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj"
             }
           }
         }
@@ -7023,7 +7023,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
