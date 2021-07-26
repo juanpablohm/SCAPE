@@ -21,6 +21,19 @@ namespace SCAPE.Application.Services
             _employeeRepository = employeeRepository;
         }
 
+        /// <summary>
+        /// This method contain bussiness logic
+        /// Add attendance to _attendanceRepository
+        /// </summary>
+        /// <param name="date">Current date of attendance</param>
+        /// <param name="type">Type of attendance</param>
+        /// <param name="documentEmployee">Employee's document of attendance</param>
+        /// <returns>
+        /// return a error message, if there is not employee linked to that document
+        /// return a error message, if the attendance's type is not valid,
+        /// return a error message, if the attendance is not add,
+        /// if the insert is success, return true
+        /// </returns>
         public async Task<bool> addAttendance(DateTime date, string type, string documentEmployee)
         {
             Employee employee = await _employeeRepository.findEmployee(documentEmployee);
@@ -46,7 +59,7 @@ namespace SCAPE.Application.Services
             }
             else
             {
-                throw new EmployeeException("There is no employee linked to that document");
+                throw new EmployeeException("There is not employee linked to that document");
             }
 
             return true;

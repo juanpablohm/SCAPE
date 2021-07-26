@@ -25,8 +25,11 @@ namespace SCAPE.API.Controllers
         /// <summary>
         /// Add a Attendance from Web Service
         /// </summary>
-        /// <param name="attendanceModel">Object with data of attendance</param>
-        /// <returns>If insert is succesful, return a "Code status 200"</returns>
+        /// <param name="data">>Object in DTO (Data Transfer Object) Format with data of attendance</param>
+        /// <returns>
+        /// If insert is fail, return a "Code error",
+        /// If insert is succesful, return a "Code status 200"
+        /// </returns>
         [HttpPost]
         public async Task<IActionResult> addAttendance(AttendanceModel data)
         {

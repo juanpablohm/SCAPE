@@ -111,7 +111,20 @@ namespace SCAPE.Application.Services
             return faceDetected;
         }
 
-
+        /// <summary>
+        /// This method contain bussiness logic
+        /// Insert employee to _employeeRepository
+        /// </summary>
+        /// <param name="employee">Employee to insert</param>
+        /// <returns>
+        /// return a error message, if the document name and lastname fields are empty
+        /// return a error message, if the employee's Email is not valid,
+        /// return a error message, if the employee's document is not valid,
+        /// return a error message, if the employee's sex is not valid,
+        /// return a error message, if the employee's document already exists,
+        /// return a error message, if the employee's email already exists,
+        /// if get success, return Employee
+        /// </returns>
         public async Task insertEmployee(Employee employee)
         {
 
@@ -138,7 +151,14 @@ namespace SCAPE.Application.Services
                 throw new RegisterEmployeeException("An employee with the same email has already been registered");
 
         }
-
+        /// <summary>
+        /// determines whether the employee email entered is valid
+        /// </summary>
+        /// <param name="email">string email from employee to add</param>
+        /// <returns>
+        /// if employee's email is valid, return true
+        /// if employee's email is not valid, return false
+        /// </returns>
         private static bool isValidEmail(string email)
         {
             try {
@@ -149,6 +169,14 @@ namespace SCAPE.Application.Services
             }
         }
 
+        /// <summary>
+        /// determines whether the employee document entered is valid
+        /// </summary>
+        /// <param name="documentId">DocumentId from employee to add</param>
+        /// <returns>
+        /// if employee's document is valid, return true
+        /// if employee's document is not valid, return false
+        /// </returns>
         private static bool isValidDocument(string documentId)
         {
             Regex regex = new Regex("^[1-9][0-9]+$");
