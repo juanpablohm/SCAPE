@@ -13,6 +13,7 @@ namespace SCAPE.Infraestructure.Context.Configuration
             entity.Property(e => e.Id).HasColumnName("id");
 
             entity.Property(e => e.Date)
+                .IsRequired()
                 .HasColumnName("date")
                 .HasColumnType("datetime");
 

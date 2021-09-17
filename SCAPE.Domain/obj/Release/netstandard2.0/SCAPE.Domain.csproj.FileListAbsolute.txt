@@ -1,0 +1,18 @@
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\bin\Release\netstandard2.0\SCAPE.Domain.deps.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\bin\Release\netstandard2.0\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\bin\Release\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.csprojAssemblyReference.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.AssemblyInfoInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.AssemblyInfo.cs
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.csproj.CoreCompileInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\bin\Release\netstandard2.0\SCAPE.Domain.deps.json
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\bin\Release\netstandard2.0\SCAPE.Domain.dll
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\bin\Release\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.csprojAssemblyReference.cache
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.AssemblyInfoInputs.cache
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.AssemblyInfo.cs
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.csproj.CoreCompileInputs.cache
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.dll
+C:\Users\juanp\Source\Repos\SCAPEi2\SCAPE.Domain\obj\Release\netstandard2.0\SCAPE.Domain.pdb

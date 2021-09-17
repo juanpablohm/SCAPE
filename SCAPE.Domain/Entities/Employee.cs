@@ -9,7 +9,7 @@ namespace SCAPE.Domain.Entities
         {
             Attendance = new HashSet<Attendance>();
             EmployeeWorkPlace = new HashSet<EmployeeWorkPlace>();
-            Image = new HashSet<Image>();
+            Image = new HashSet<EmployeeImage>();
         }
 
         public int Id { get; set; }
@@ -22,6 +22,6 @@ namespace SCAPE.Domain.Entities
 
         public virtual ICollection<Attendance> Attendance { get; set; }
         public virtual ICollection<EmployeeWorkPlace> EmployeeWorkPlace { get; set; }
-        public virtual ICollection<Image> Image { get; set; }
+        public virtual ICollection<EmployeeImage> Image { get; set; }
     }
 }

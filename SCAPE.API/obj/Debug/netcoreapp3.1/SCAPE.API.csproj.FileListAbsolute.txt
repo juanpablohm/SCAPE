@@ -1,53 +1,3 @@
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.exe
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.deps.json
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.json
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.dev.json
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.pdb
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.pdb
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.pdb
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csprojAssemblyReference.cache
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfoInputs.cache
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfo.cs
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CoreCompileInputs.cache
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.RazorTargetAssemblyInfo.cache
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CopyComplete
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.Manifest.cache
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.xml
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.dll
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.pdb
-C:\Users\juanp\source\repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.genruntimeconfig.cache
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\ProyectoSCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\ProyectoSCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\ProyectoSCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.exe
@@ -100,3 +50,317 @@ C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\ProyectoSCAPE\SCAPE.
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\ProyectoSCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.genruntimeconfig.cache
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\ProyectoSCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.dll
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\ProyectoSCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.pdb
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.exe
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.deps.json
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.json
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.dev.json
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Vision.Face.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.pdb
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.pdb
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.pdb
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csprojAssemblyReference.cache
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfoInputs.cache
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfo.cs
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CoreCompileInputs.cache
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.RazorTargetAssemblyInfo.cache
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CopyComplete
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.Manifest.cache
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.xml
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\juanp\Source\Repos\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.genruntimeconfig.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.exe
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.deps.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.dev.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Vision.Face.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csprojAssemblyReference.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfoInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfo.cs
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CoreCompileInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.Manifest.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.xml
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\SCAPE.API.styles.css
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.RazorTargetAssemblyInfo.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CopyComplete
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\Proyecto SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.genruntimeconfig.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Vision.Face.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csprojAssemblyReference.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfoInputs.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfo.cs
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CoreCompileInputs.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.RazorTargetAssemblyInfo.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CopyComplete
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.exe
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.deps.json
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.json
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.dev.json
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.Manifest.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.xml
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.genruntimeconfig.cache
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\juanp\Source\Repos\SCAPEv1.0.0\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.exe
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.deps.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.dev.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Vision.Face.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csprojAssemblyReference.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfoInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfo.cs
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CoreCompileInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.Manifest.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.xml
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\SCAPE.API.styles.css
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.RazorTargetAssemblyInfo.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CopyComplete
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.genruntimeconfig.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.exe
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.deps.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.runtimeconfig.dev.json
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Vision.Face.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Application.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Domain.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\bin\Debug\netcoreapp3.1\SCAPE.Infraestructure.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csprojAssemblyReference.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfoInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.AssemblyInfo.cs
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CoreCompileInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.Manifest.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\staticwebassets\SCAPE.API.StaticWebAssets.xml
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\SCAPE.API.styles.css
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.RazorTargetAssemblyInfo.cache
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.csproj.CopyComplete
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.dll
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.pdb
+C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.API\obj\Debug\netcoreapp3.1\SCAPE.API.genruntimeconfig.cache

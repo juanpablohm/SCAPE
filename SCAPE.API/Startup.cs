@@ -16,6 +16,7 @@ using SCAPE.Application.Interfaces;
 using SCAPE.Application.Services;
 using SCAPE.Domain.Interfaces;
 using SCAPE.Infraestructure.Context;
+using SCAPE.Infraestructure.FaceRecognition;
 using SCAPE.Infraestructure.Repositories;
 
 namespace SCAPE.API
@@ -41,6 +42,9 @@ namespace SCAPE.API
             //Dependencias
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
             services.AddTransient<IEmployeeService, EmployeeService>();
+            services.AddTransient<IAttendanceRepository, AttendanceRepository>();
+            services.AddTransient<IAttendanceService, AttendanceService>();
+            services.AddTransient<IFaceRecognition, FaceRecognition>();
 
 
         }

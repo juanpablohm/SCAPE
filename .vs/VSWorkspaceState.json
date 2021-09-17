@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SCAPE.Infraestructure",
+    "\\SCAPE.Infraestructure\\Context",
+    "\\SCAPE.Infraestructure\\Repositories",
+    "\\Scripts"
   ],
   "PreviewInSolutionExplorer": false
 }
