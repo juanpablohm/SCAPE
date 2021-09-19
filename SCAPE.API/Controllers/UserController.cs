@@ -55,7 +55,7 @@ namespace SCAPE.API.Controllers
 
             var claims = new ClaimsIdentity();
             claims.AddClaim(new Claim(ClaimTypes.Email, email));
-            claims.AddClaim(new Claim("role", resultLogin.Role));
+            claims.AddClaim(new Claim(ClaimTypes.Role, resultLogin.Role));
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
@@ -72,7 +72,7 @@ namespace SCAPE.API.Controllers
         }
 
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = "Admin,Employeer")]
         [Route("AddUser")]
         public async Task<IActionResult> addUser(UserModel data)
         {

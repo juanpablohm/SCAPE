@@ -12,7 +12,6 @@ namespace SCAPE.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeService _employeeService;
@@ -30,7 +29,9 @@ namespace SCAPE.API.Controllers
         /// </summary>
         /// <param name="employeeDTO">Object in DTO (Data Transfer Object) Format</param>
         /// <returns>If insert is succesful, return a "Code status 200"</returns>
+        
         [HttpPost]
+        [Authorize(Roles = "Admin,Employeer")]
         public async Task<IActionResult> insertEmployee(EmployeeDTO employeeDTO)
         {
             Employee employee = _mapper.Map<Employee>(employeeDTO);
@@ -50,6 +51,7 @@ namespace SCAPE.API.Controllers
         /// <param name="data">Model with documentId, EncodeImage and faceListId in AsoociateFaceModel class </param>
         /// <returns>If  associate is succesfull, return a "Code status 200" and bool true </returns>
         [HttpPost]
+        [Authorize(Roles = "Admin,Employeer")]
         [Route("AssociateImage")]
         public async Task<IActionResult> associateFace(AssociateFaceModel data)
         {
@@ -75,6 +77,7 @@ namespace SCAPE.API.Controllers
         /// <param name="data">Model with faceListId and EncodeImage in FindEmployeeModel class</param>
         /// <returns>If get is succesfull, return a Employee and "Code status 200"</returns>
         [HttpPost]
+        [Authorize]
         [Route("GetEmployeeByImage")]
         public async Task<IActionResult> getEmployeeByFace(FindEmployeeModel data)
         {

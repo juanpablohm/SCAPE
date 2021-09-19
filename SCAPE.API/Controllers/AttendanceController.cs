@@ -12,7 +12,6 @@ namespace SCAPE.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class AttendanceController : ControllerBase
     {
         private readonly IAttendanceService _attendanceService;
@@ -33,6 +32,7 @@ namespace SCAPE.API.Controllers
         /// If insert is succesful, return a "Code status 200"
         /// </returns>
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> addAttendance(AttendanceModel data)
         {
             string documentEmployee = data.documentEmployee;
