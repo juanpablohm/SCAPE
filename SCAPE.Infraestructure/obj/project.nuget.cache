@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e/NH+rmG/jgAiApXv3hAn5Dq1KyErZQ693zf7GxaerWnLvG740BNUuPIDrW8cWAjVgfISC3VSfY/5vxnJpWG0Q==",
+  "dgSpecHash": "1AI0Zmhjp24H2NWMSHqYMoDkmVdWCzZPKxFf01Ak8f3B+a+ozc2jPPtK0saEXH7UkL5M/OflPHgL4lJGiQ4VlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Infraestructure\\SCAPE.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GOMEZ\\.nuget\\packages\\automapper\\6.1.1\\automapper.6.1.1.nupkg.sha512",
     "C:\\Users\\GOMEZ\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\3.1.0\\automapper.extensions.microsoft.dependencyinjection.3.1.0.nupkg.sha512",

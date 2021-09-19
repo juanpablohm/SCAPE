@@ -89,6 +89,23 @@ CREATE TABLE [dbo].[Image](
 ) ON [PRIMARY]
 GO
 
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[User](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[email] [varchar](500) NOT NULL,
+	[password] [varchar](100) NOT NULL,
+	[role] [varchar](20) NOT NULL
+
+ CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
 SET IDENTITY_INSERT [dbo].[Employee] ON 
 
 INSERT [dbo].[Employee] ([id], [documentId], [firstName], [lastName], [email],[sex],[dateBirth]) VALUES (1, 1234, 'Juan', 'Molina', 'juan@gmail.com', 'M', '20120618 10:34:09 AM')

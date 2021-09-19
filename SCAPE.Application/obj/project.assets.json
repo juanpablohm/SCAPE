@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj",
+      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Application\\SCAPE.Application.csproj",
       "projectName": "SCAPE.Application",
-      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Application\\SCAPE.Application.csproj",
+      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Application\\SCAPE.Application.csproj",
       "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Application\\obj\\",
+      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -222,8 +222,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj": {
-              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj"
+            "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Domain\\SCAPE.Domain.csproj": {
+              "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Domain\\SCAPE.Domain.csproj"
             }
           }
         }

@@ -82,3 +82,17 @@ C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.In
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csproj.CopyComplete
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.dll
 C:\Users\GOMEZ\Desktop\Semestre_8\Ingeniería de Software 3\SCAPE\SCAPE\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.pdb
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Infraestructure.deps.json
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Infraestructure.dll
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Infraestructure.pdb
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Application.dll
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Domain.dll
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Application.pdb
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\bin\Debug\netstandard2.0\SCAPE.Domain.pdb
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csprojAssemblyReference.cache
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.AssemblyInfo.cs
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.csproj.CopyComplete
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.dll
+C:\Users\GOMEZ\Desktop\Semestre_9\Proyecto Integrador\ONTIME\SCAPE.Infraestructure\obj\Debug\netstandard2.0\SCAPE.Infraestructure.pdb
