@@ -15,12 +15,22 @@ namespace SCAPE.Infraestructure.Repositories
         {
             _context = context;
         }
-        
-        public async Task<User> findEmployeeByEmail(string email)
+
+        /// <summary>
+        /// Find user by email
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns>A successful calls return a User</returns>
+        public async Task<User> findUserByEmail(string email)
         {
             return await _context.User.FirstOrDefaultAsync(e => e.Email == email);
         }
 
+        /// <summary>
+        /// Find user by email and password at the context (SCAPEDB in this case)
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns>A successful calls return a User</returns>
         public async Task<User> getUser(User user)
         {
             User userTarget = await _context.User.FirstOrDefaultAsync(e => e.Email == user.Email);

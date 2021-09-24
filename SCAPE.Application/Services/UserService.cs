@@ -23,14 +23,21 @@ namespace SCAPE.Application.Services
             _employeeRepository = employeeRepository;
         }
 
-        
+
+        /// <summary>
+        /// Insert new User
+        /// </summary>
+        /// <param name="email">Email from User to add</param>
+        /// <param name="password">password from User to add</param>
+        /// <param name="role">role from User to add</param>
+        /// <returns>If insert successful calls return true</returns>
         public async Task<bool> addUser(string email, string password, string role)
         {
             User user = null;
             /*
              * Validar que no existan más usuarios con ese correo
              */
-            user = await _userRepository.findEmployeeByEmail(email);
+            user = await _userRepository.findUserByEmail(email);
 
             if (user == null)
             {
@@ -55,6 +62,12 @@ namespace SCAPE.Application.Services
             return true;
         }
 
+        /// <summary>
+        /// Method that logs user
+        /// </summary>
+        /// <param name="email">Email from User to login</param>
+        /// <param name="password">Password from User to login</param>
+        /// <returns>If insert successful calls return User from repository</returns>
         public async Task<User> login(string email, string password)
         {
             User user = new User();

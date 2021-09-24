@@ -16,11 +16,13 @@ namespace SCAPE.API.Controllers
     {
         private readonly IEmployeeService _employeeService;
         private readonly IMapper _mapper;
+        private readonly IUserService _userService;
 
 
-        public EmployeeController(IEmployeeService employeeService,IMapper mapper)
+        public EmployeeController(IEmployeeService employeeService,IMapper mapper,IUserService userService)
         {
             _employeeService = employeeService;
+            _userService = userService;
             _mapper = mapper;
         }
 
@@ -32,12 +34,13 @@ namespace SCAPE.API.Controllers
         
         [HttpPost]
         [Authorize(Roles = "Admin,Employeer")]
-        public async Task<IActionResult> insertEmployee(EmployeeDTO employeeDTO)
-        {
+        public async Task<IActionResult> insertEmployee(EmployeeCreateDTO employeeDTO)
+        {   
             Employee employee = _mapper.Map<Employee>(employeeDTO);
-
+            
             try{
                 await _employeeService.insertEmployee(employee);
+                await _userService.addUser(employee.Email, employeeDTO.Password, "Employee");
 
             }catch(Exception ex)  {
                 return BadRequest(ex.Message);

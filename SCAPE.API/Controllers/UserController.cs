@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using SCAPE.API.ActionsModels;
+using SCAPE.Application.DTOs;
 using SCAPE.Application.Interfaces;
 using SCAPE.Domain.Entities;
 using System;
@@ -21,21 +22,28 @@ namespace SCAPE.API.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
         private readonly IConfiguration _config;
 
-        public UserController(IUserService userService,IMapper mapper,IConfiguration config)
+        public UserController(IUserService userService,IMapper mapper,ITokenService tokenService, IConfiguration config)
         {
             _userService = userService;
             _mapper = mapper;
+            _tokenService = tokenService;
             _config = config;
         }
 
+        /// <summary>
+        /// Method that logs user employees, employers and administrators
+        /// </summary>
+        /// <param name="data">Object with username and password</param>
+        /// <returns>TokenModelDTO with OAuth2 Structure and JSON Web Token</returns>
         [HttpPost]
         [Route("Login")]
-        public async Task<IActionResult> Login(UserModel data)
+        public async Task<IActionResult> Login([FromForm]UserModel data)
         {
-            string email = data.email;
+            string email = data.username;
             string password = data.password;
 
             User resultLogin = null;
@@ -49,34 +57,20 @@ namespace SCAPE.API.Controllers
             }
 
             //Create JSON Web Token
-
             var secretKey = _config.GetValue<string>("SecretKey");
-            var key = Encoding.ASCII.GetBytes(secretKey);
-
-            var claims = new ClaimsIdentity();
-            claims.AddClaim(new Claim(ClaimTypes.Email, email));
-            claims.AddClaim(new Claim(ClaimTypes.Role, resultLogin.Role));
-
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = claims,
-                Expires = DateTime.UtcNow.AddHours(4),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-            };
-
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var createdToken = tokenHandler.CreateToken(tokenDescriptor);
-
-            string bearer_token = tokenHandler.WriteToken(createdToken);
-            return Ok(bearer_token);
+            TokenModelDTO out_token = _tokenService.getToken(resultLogin,secretKey);
+            
+            return Ok(out_token);
         }
 
+        /*
+
         [HttpPost]
-        [Authorize(Roles = "Admin,Employeer")]
+        [Authorize(Roles = "Admin")]
         [Route("AddUser")]
         public async Task<IActionResult> addUser(UserModel data)
         {
-            string email = data.email;
+            string email = data.username;
             string password = data.password;
             string role = data.role;
 
@@ -91,5 +85,6 @@ namespace SCAPE.API.Controllers
 
             return Ok(resultInsert);
         }
+        */
     }
 }

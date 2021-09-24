@@ -180,7 +180,7 @@ namespace SCAPE.Application.Services
         private static bool isValidDocument(string documentId)
         {
             Regex regex = new Regex("^[1-9][0-9]+$");
-            if (!String.IsNullOrWhiteSpace(documentId) && documentId.Length == 10 && regex.IsMatch(documentId))
+            if (!String.IsNullOrWhiteSpace(documentId) && regex.IsMatch(documentId))
                 return true;
             return false;
         }

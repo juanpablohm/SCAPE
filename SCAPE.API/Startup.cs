@@ -71,6 +71,8 @@ namespace SCAPE.API
 
             services.AddTransient<IFaceRecognition, FaceRecognition>();
 
+            services.AddTransient<ITokenService, TokenService>();
+
 
         }
 
