@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Domain\\SCAPE.Domain.csproj",
       "projectName": "SCAPE.Domain",
-      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Domain\\SCAPE.Domain.csproj",
+      "projectPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Domain\\SCAPE.Domain.csproj",
       "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_8\\Ingeniería de Software 3\\SCAPE\\SCAPE\\SCAPE.Domain\\obj\\",
+      "outputPath": "C:\\Users\\GOMEZ\\Desktop\\Semestre_9\\Proyecto Integrador\\ONTIME\\SCAPE.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",

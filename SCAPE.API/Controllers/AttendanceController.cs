@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SCAPE.API.ActionsModels;
 using SCAPE.Application.Interfaces;
@@ -31,6 +32,7 @@ namespace SCAPE.API.Controllers
         /// If insert is succesful, return a "Code status 200"
         /// </returns>
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> addAttendance(AttendanceModel data)
         {
             string documentEmployee = data.documentEmployee;
